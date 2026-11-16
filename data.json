@@ -1,0 +1,636 @@
+{
+  "meta": {
+    "title": "Amey Thakare | Program, Project & Product Management, Data Engineering",
+    "description": "Portfolio of Amey Thakare: Program Manager and Business Consultant with 5+ years delivering cross-functional programs and $264M in combined cost savings."
+  },
+  "profile": {
+    "name": "Amey Thakare",
+    "location": "Dallas, TX",
+    "headshot": "assets/headshot.jpg",
+    "resumeFile": "assets/Amey_Thakare_Resume.pdf",
+    "email": "ameyashok.thakare@utdallas.edu",
+    "phone": "(469) 558-6548",
+    "linkedin": "https://linkedin.com/in/ameythakare007",
+    "availability": "MS + MBA, Dec 2026 · Open to full-time roles",
+    "headline": "I turn complex, cross-functional programs into *delivered results*.",
+    "summary": "Program Manager and Business Consultant with **5+ years** driving end-to-end delivery of complex programs for enterprise clients, with **$264M** in combined cost savings. I own milestones, manage risk through mergers, acquisitions and spinoffs, and back every decision with data.",
+    "heroChips": [
+      {
+        "value": "$264M",
+        "label": "cost savings delivered"
+      },
+      {
+        "value": "5+ yrs",
+        "label": "enterprise program delivery"
+      }
+    ],
+    "contactHeadline": "Have a program that needs to *ship*?",
+    "contactText": "I'm looking for Program, Project and Product Management roles, and Data Engineering roles. The fastest way to reach me is email or LinkedIn.",
+    "github": "https://github.com/jazzboyadvanced007",
+    "now": "MS Business Analytics & AI + MBA, UT Dallas, graduating Dec 2026",
+    "before": "Business Consultant, GEP Worldwide"
+  },
+  "sections": {
+    "roles": {
+      "kicker": "Role fit",
+      "title": "One background, four ways to put it to work",
+      "intro": "Pick the role you're hiring for. The whole page will highlight the experience, projects and skills that matter most for it."
+    },
+    "experience": {
+      "kicker": "Experience",
+      "title": "Five years of enterprise delivery"
+    },
+    "projects": {
+      "kicker": "Case studies",
+      "title": "Programs and projects, each with the result it delivered",
+      "intro": "Open any card for the full story: what I did, how it worked and what it delivered."
+    },
+    "skills": {
+      "kicker": "Skills",
+      "title": "The toolkit"
+    },
+    "leadership": {
+      "kicker": "Leadership",
+      "title": "Leading outside the day job"
+    },
+    "education": {
+      "kicker": "Education",
+      "title": "Education & credentials"
+    },
+    "honors": {
+      "kicker": "Honors",
+      "title": "Awards and honors"
+    }
+  },
+  "overview": [
+    {
+      "kicker": "In a hurry? Here's the 30-second version.",
+      "big": "Amey Thakare",
+      "text": "Program Manager and Business Consultant.",
+      "photo": true
+    },
+    {
+      "kicker": "The impact",
+      "big": "$264M",
+      "text": "in combined cost savings across enterprise procurement programs at GEP Worldwide."
+    },
+    {
+      "kicker": "The craft",
+      "big": "End to end",
+      "text": "Milestones, risks and stakeholders through mergers, acquisitions and spinoffs."
+    },
+    {
+      "kicker": "The data",
+      "big": "SQL to AI",
+      "text": "SQL, Python and Power BI, an Azure Lakehouse processing 250M+ records a day, and an AI copilot in the current capstone."
+    },
+    {
+      "kicker": "The timing",
+      "big": "Dec 2026",
+      "text": "Graduating with an MS and MBA from UT Dallas, 4.0 GPA. Open to Program, Project and Product Management and Data Engineering roles."
+    }
+  ],
+  "roles": [
+    {
+      "id": "program",
+      "label": "Program Manager",
+      "headline": "I deliver complex, cross-functional programs *end to end*.",
+      "pitch": "Five years owning procurement transformation programs for enterprise clients, through mergers, acquisitions and spinoffs, with $264M in combined cost savings.",
+      "proof": [
+        "End-to-end delivery of transformation programs, raising operational efficiency by 22%",
+        "Milestones and risk plans for merger, acquisition and spinoff integrations",
+        "Delivery playbooks and SOPs adopted across teams"
+      ]
+    },
+    {
+      "id": "project",
+      "label": "Project Manager",
+      "headline": "I keep scope, schedule and risk *under control*.",
+      "pitch": "Requirements, milestones and critical path tracked closely, with risks surfaced early and progress reported clearly to senior leadership.",
+      "proof": [
+        "Managed requirements, milestones and risk mitigation with cross-functional stakeholders",
+        "Cut process delays by 20% and cost overruns by 15% through automation",
+        "President of the Project Management Club at UT Dallas"
+      ]
+    },
+    {
+      "id": "product",
+      "label": "Product Manager",
+      "headline": "I turn business problems into tools *people adopt*.",
+      "pitch": "I sit between senior leadership and technical teams, translate objectives into requirements, define the KPIs, and drive adoption after launch.",
+      "proof": [
+        "Translated business objectives into BI dashboards and analytics models worth $208M in savings",
+        "Built a value realization system with an AI copilot for KPI queries",
+        "Led training and onboarding to drive adoption of new ways of working"
+      ]
+    },
+    {
+      "id": "data",
+      "label": "Data Engineering",
+      "headline": "I build the pipelines *behind the decisions*.",
+      "pitch": "Hands-on with SQL, Python and cloud data platforms, from ETL and data modeling to the dashboards and forecasts that sit on top.",
+      "proof": [
+        "Azure Lakehouse with ETL pipelines processing 250M+ records a day",
+        "Automated reporting workflows with SQL and VBA",
+        "SQL, Python, Snowflake, Microsoft Fabric, Azure, AWS"
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "prefix": "$",
+      "value": 264,
+      "suffix": "M",
+      "label": "combined cost savings delivered"
+    },
+    {
+      "value": 22,
+      "suffix": "%",
+      "label": "gain in operational efficiency"
+    },
+    {
+      "value": 250,
+      "suffix": "M+",
+      "label": "daily records through one lakehouse"
+    },
+    {
+      "value": 94.3,
+      "suffix": "%",
+      "label": "demand forecast accuracy"
+    },
+    {
+      "value": 4.0,
+      "decimals": 1,
+      "label": "GPA across MS and MBA"
+    }
+  ],
+  "experience": [
+    {
+      "company": "GEP Worldwide",
+      "location": "Mumbai, India",
+      "period": "May 2019 – Jul 2024",
+      "positions": [
+        {
+          "title": "Business Consultant",
+          "period": "May 2021 – Jul 2024",
+          "bullets": [
+            {
+              "text": "Drove end-to-end delivery of procurement transformation programs for enterprise clients, mapping current-state processes and re-engineering procedures, SOPs and policies to increase operational efficiency by **22%**",
+              "roles": [
+                "program",
+                "project"
+              ]
+            },
+            {
+              "text": "Managed requirements, milestones and risk mitigation plans with cross-functional stakeholders on **merger, acquisition and spinoff** integrations, keeping operations running through organizational change",
+              "roles": [
+                "program",
+                "project"
+              ]
+            },
+            {
+              "text": "Served as primary liaison between client senior leadership and technical delivery teams, translating business objectives into automated BI dashboards and analytics models that delivered **$208M** in cost savings and a **16%** reduction in procurement costs",
+              "roles": [
+                "program",
+                "product",
+                "data"
+              ]
+            },
+            {
+              "text": "Standardized delivery playbooks and best practices and led training and onboarding, driving adoption of repeatable ways of working across teams and improving team productivity",
+              "roles": [
+                "program",
+                "product"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Senior Business Analyst",
+          "period": "May 2019 – May 2021",
+          "bullets": [
+            {
+              "text": "Defined KPIs and built performance reporting with SQL and advanced Excel in a client-facing role, giving management clear visibility into spend and process performance to drive data-backed decisions",
+              "roles": [
+                "product",
+                "data",
+                "project"
+              ]
+            },
+            {
+              "text": "Automated manual reporting and analysis workflows using SQL and VBA, reducing process delays by **20%** and cost overruns by **15%**",
+              "roles": [
+                "data",
+                "project"
+              ]
+            },
+            {
+              "text": "Engineered data analytics and forecasting solutions that delivered **$56M** in cost savings and an **18%** improvement in cost efficiency",
+              "roles": [
+                "data",
+                "product"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Procurement Value Realization System",
+      "context": "Capstone · Global eyecare company",
+      "period": "Aug 2026 – Present",
+      "status": "In progress",
+      "bullets": [
+        "Developed a seamless, fully integrated value realization system where every function group records and tracks ongoing and past initiatives, captures value delivered, and monitors KPIs on dedicated function-level dashboards",
+        "Built an AI-enabled copilot to query KPIs and performance metrics; authoring a playbook for sustainable governance"
+      ],
+      "flow": [
+        "Initiatives recorded",
+        "Value captured",
+        "Function-level KPI dashboards",
+        "AI copilot + governance playbook"
+      ],
+      "tags": [
+        "Value tracking",
+        "KPI dashboards",
+        "AI copilot",
+        "Governance"
+      ],
+      "roles": [
+        "program",
+        "product",
+        "project"
+      ],
+      "link": "",
+      "summary": "One system where every function records its initiatives, captures the value delivered and tracks KPIs on its own dashboard.",
+      "metrics": [
+        {
+          "value": "AI copilot",
+          "label": "for KPI and performance queries"
+        },
+        {
+          "value": "All",
+          "label": "function groups on one system"
+        }
+      ]
+    },
+    {
+      "title": "Procurement Transformation",
+      "context": "GEP Worldwide · Enterprise clients",
+      "period": "May 2021 – Jul 2024",
+      "summary": "Mapped current-state processes, then re-engineered procedures, SOPs and policies for enterprise procurement teams.",
+      "bullets": [
+        "Drove end-to-end delivery of procurement transformation programs for enterprise clients",
+        "Mapped current-state processes and re-engineered procedures, SOPs and policies, raising operational efficiency by **22%**",
+        "Managed requirements, milestones and risk mitigation plans through merger, acquisition and spinoff integrations"
+      ],
+      "metrics": [
+        {
+          "value": "22%",
+          "label": "gain in operational efficiency"
+        },
+        {
+          "value": "M&A",
+          "label": "integrations kept running"
+        }
+      ],
+      "flow": [
+        "Map current-state processes",
+        "Re-engineer procedures, SOPs and policies",
+        "Manage milestones and risks",
+        "22% more efficient operations"
+      ],
+      "tags": [
+        "Process mapping",
+        "SOPs",
+        "Change management",
+        "Stakeholders"
+      ],
+      "roles": [
+        "program",
+        "project"
+      ],
+      "link": ""
+    },
+    {
+      "title": "Executive BI & Analytics",
+      "context": "GEP Worldwide · Client leadership",
+      "period": "May 2021 – Jul 2024",
+      "summary": "Translated what senior leaders needed to know into automated dashboards and analytics models.",
+      "bullets": [
+        "Served as primary liaison between client senior leadership and technical delivery teams",
+        "Translated business objectives into automated BI dashboards and analytics models",
+        "Delivered **$208M** in cost savings and a **16%** reduction in procurement costs"
+      ],
+      "metrics": [
+        {
+          "value": "$208M",
+          "label": "cost savings"
+        },
+        {
+          "value": "16%",
+          "label": "lower procurement costs"
+        }
+      ],
+      "flow": [
+        "Leadership objectives",
+        "Requirements for technical teams",
+        "Automated BI dashboards + analytics models",
+        "$208M in cost savings"
+      ],
+      "tags": [
+        "BI dashboards",
+        "Analytics models",
+        "Executive reporting",
+        "Requirements"
+      ],
+      "roles": [
+        "product",
+        "program",
+        "data"
+      ],
+      "link": ""
+    },
+    {
+      "title": "Intelligent Grid Operations & Azure Lakehouse Modernization",
+      "context": "Data engineering",
+      "period": "Jan 2026 – May 2026",
+      "bullets": [
+        "Designed and delivered an end-to-end Azure Lakehouse with ETL pipelines and data modeling processing **250M+ daily records**, with automated anomaly detection flagging operational exceptions in real time"
+      ],
+      "flow": [
+        "250M+ daily records",
+        "ETL pipelines",
+        "Data model",
+        "Real-time anomaly detection"
+      ],
+      "tags": [
+        "Azure",
+        "Lakehouse",
+        "ETL",
+        "Data modeling",
+        "Anomaly detection"
+      ],
+      "roles": [
+        "data",
+        "project"
+      ],
+      "link": "",
+      "summary": "An end-to-end Azure Lakehouse with ETL pipelines and real-time anomaly detection for grid operations.",
+      "metrics": [
+        {
+          "value": "250M+",
+          "label": "records processed daily"
+        },
+        {
+          "value": "Real time",
+          "label": "anomaly flags"
+        }
+      ]
+    },
+    {
+      "title": "Consumer Behavior Analysis & Demand Forecasting",
+      "context": "Analytics · Major CPG brand",
+      "period": "Jan 2026 – May 2026",
+      "bullets": [
+        "Built a **94.3% accurate** demand forecasting model (Linear Regression, Random Forest) on POS and behavioral data to guide multimillion-dollar commercial planning decisions for a major CPG brand"
+      ],
+      "flow": [
+        "POS + behavioral data",
+        "Linear Regression / Random Forest",
+        "94.3% accurate forecast",
+        "Commercial planning decisions"
+      ],
+      "tags": [
+        "Forecasting",
+        "Random Forest",
+        "Linear Regression",
+        "CPG"
+      ],
+      "roles": [
+        "data",
+        "product"
+      ],
+      "link": "",
+      "summary": "A forecasting model on POS and behavioral data to guide multimillion-dollar commercial planning.",
+      "metrics": [
+        {
+          "value": "94.3%",
+          "label": "forecast accuracy"
+        },
+        {
+          "value": "2",
+          "label": "model families compared"
+        }
+      ]
+    },
+    {
+      "title": "Reporting Automation",
+      "context": "GEP Worldwide · Senior Business Analyst",
+      "period": "May 2019 – May 2021",
+      "summary": "Replaced manual reporting with SQL and VBA automation, and built analytics and forecasting on top.",
+      "bullets": [
+        "Automated manual reporting and analysis workflows using SQL and VBA",
+        "Reduced process delays by **20%** and cost overruns by **15%**",
+        "Engineered analytics and forecasting solutions that delivered **$56M** in cost savings and an **18%** improvement in cost efficiency"
+      ],
+      "metrics": [
+        {
+          "value": "$56M",
+          "label": "cost savings"
+        },
+        {
+          "value": "20%",
+          "label": "fewer process delays"
+        },
+        {
+          "value": "15%",
+          "label": "lower cost overruns"
+        }
+      ],
+      "flow": [
+        "Manual reporting workflows",
+        "SQL + VBA automation",
+        "Analytics and forecasting",
+        "$56M in cost savings"
+      ],
+      "tags": [
+        "SQL",
+        "VBA",
+        "Advanced Excel",
+        "Forecasting"
+      ],
+      "roles": [
+        "data",
+        "project"
+      ],
+      "link": ""
+    }
+  ],
+  "skills": [
+    {
+      "group": "Program & Project Management",
+      "roles": [
+        "program",
+        "project"
+      ],
+      "items": [
+        "End-to-End Program Delivery",
+        "Milestone & Critical Path Tracking",
+        "Project Scheduling",
+        "Risk Assessment & Mitigation",
+        "Cross-Functional Coordination",
+        "Operational Readiness"
+      ]
+    },
+    {
+      "group": "Process Improvement",
+      "roles": [
+        "program",
+        "project",
+        "product"
+      ],
+      "items": [
+        "Process Re-engineering",
+        "Playbook & SOP Development",
+        "Process Mapping",
+        "Root Cause Analysis",
+        "KPI Design"
+      ]
+    },
+    {
+      "group": "Stakeholder Leadership",
+      "roles": [
+        "program",
+        "product",
+        "project"
+      ],
+      "items": [
+        "Senior Leadership Reporting",
+        "Executive Presentations",
+        "Multi-Level Stakeholder Management",
+        "Tech & Non-Tech Team Coordination",
+        "Change Management",
+        "Training & Adoption"
+      ]
+    },
+    {
+      "group": "Data & Tools",
+      "roles": [
+        "data",
+        "product"
+      ],
+      "items": [
+        "SQL",
+        "Python",
+        "Advanced Excel",
+        "Power Query",
+        "VBA",
+        "Power BI",
+        "Tableau",
+        "Snowflake",
+        "Microsoft Fabric",
+        "Azure",
+        "AWS",
+        "Salesforce",
+        "SAP",
+        "PowerApps"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "President",
+      "org": "Project Management Club, UT Dallas",
+      "period": "Jan 2026 – Present",
+      "text": "Lead governance and cross-functional operations; previously led a six-officer team that grew membership and events.",
+      "roles": [
+        "program",
+        "project"
+      ]
+    },
+    {
+      "title": "Assistant Vice President, Operations",
+      "org": "INFORMS at UT Dallas",
+      "period": "Jan 2026 – Present",
+      "text": "Lead a five-member operations team owning planning, scheduling, logistics and execution for analytics workshops and speaker events.",
+      "roles": [
+        "program",
+        "project",
+        "data"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "The University of Texas at Dallas",
+      "degree": "Master of Science, Business Analytics & AI and MBA (Double Degree)",
+      "period": "Dec 2026",
+      "detail": "GPA 4.0 · Scholar with High Distinction (MS & MBA)",
+      "honors": []
+    },
+    {
+      "school": "Visvesvaraya National Institute of Technology (VNIT), Nagpur, India",
+      "degree": "Bachelor of Technology, Civil Engineering",
+      "period": "May 2019",
+      "detail": "GPA 3.6",
+      "honors": []
+    }
+  ],
+  "honors": [
+    {
+      "title": "Scholar with High Distinction",
+      "detail": "MS Business Analytics & AI and MBA, UT Dallas"
+    },
+    {
+      "title": "4.0 GPA",
+      "detail": "Across both graduate degrees"
+    },
+    {
+      "title": "Phi Kappa Phi",
+      "detail": "Honor society"
+    },
+    {
+      "title": "Beta Gamma Sigma",
+      "detail": "International business honor society"
+    },
+    {
+      "title": "Dean's Excellence Scholarship",
+      "detail": "UT Dallas"
+    },
+    {
+      "title": "H.R. Saboowala Fellowship",
+      "detail": "International Merit Fellowship"
+    }
+  ],
+  "certifications": [
+    "Oracle SQL Explorer Badge",
+    "SQL Essential Training",
+    "Cybersecurity at Work",
+    "McKinsey Forward Program"
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "Native / bilingual"
+    },
+    {
+      "name": "Hindi",
+      "level": "Native / bilingual"
+    },
+    {
+      "name": "Marathi",
+      "level": "Native / bilingual"
+    },
+    {
+      "name": "German",
+      "level": "Limited working"
+    },
+    {
+      "name": "French",
+      "level": "Elementary"
+    }
+  ]
+}

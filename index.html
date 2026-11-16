@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en" class="is-loading">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Amey Thakare | Portfolio</title>
+  <meta name="description" content="Amey Thakare: Program Manager and Business Consultant. 5+ years delivering cross-functional programs and $264M in cost savings. MS Business Analytics &amp; AI + MBA, UT Dallas.">
+  <meta property="og:title" content="Amey Thakare | Portfolio">
+  <meta property="og:description" content="Program Manager and Business Consultant. $264M in cost savings delivered across enterprise programs.">
+  <meta property="og:image" content="assets/headshot.jpg">
+  <meta name="theme-color" content="#0e1726">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-lens="all">
+
+  <!-- Intro animation -->
+  <div class="loader" id="loader">
+    <div class="loader__name" id="loaderName"></div>
+    <div class="loader__meta">
+      <span id="loaderLabel">Loading portfolio</span>
+      <span class="loader__count"><span id="loaderCount">0</span>%</span>
+    </div>
+    <div class="loader__bar"><i id="loaderBar"></i></div>
+    <button class="loader__skip" id="skipIntro">Skip intro</button>
+  </div>
+
+  <div class="progress" aria-hidden="true"><i id="scrollProgress"></i></div>
+
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#top" id="navBrand"></a>
+    <nav class="nav__links" id="navLinks" aria-label="Sections">
+      <a href="#roles">Role fit</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav__right">
+      <button class="lens-chip" id="lensChip" hidden title="Clear role filter"></button>
+      <a class="btn btn--small magnetic" id="navResume" href="#" download>Resume</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="app">
+    <section class="hero" id="top">
+      <div class="hero__copy">
+        <p class="eyebrow intro-item" style="--i:0" id="heroEyebrow"></p>
+        <h1 class="hero__title intro-item" style="--i:1" id="heroTitle"></h1>
+        <p class="hero__summary intro-item" style="--i:2" id="heroSummary"></p>
+        <div class="lens intro-item" style="--i:3">
+          <span class="lens__label">Hiring for</span>
+          <div class="lens__options" id="lensOptions" role="group" aria-label="Filter portfolio by role"></div>
+        </div>
+        <div class="hero__cta intro-item" style="--i:4">
+          <button class="btn btn--primary magnetic" id="playOverview" hidden><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg>30-second overview</button>
+          <a class="btn magnetic" href="#projects">See the work <span aria-hidden="true">↓</span></a>
+          <a class="btn magnetic" href="#contact">Get in touch</a>
+        </div>
+        <p class="hero__credits intro-item" style="--i:5" id="heroCredits"></p>
+      </div>
+      <div class="hero__visual intro-item" style="--i:2">
+        <div class="portrait tilt" id="portrait">
+          <div class="portrait__frame"><img id="heroPhoto" alt="" width="1000" height="1000"></div>
+          <div class="portrait__chips" id="heroChips"></div>
+          <div class="portrait__badge" id="heroBadge"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" id="stats" aria-label="Impact in numbers"><div class="stats__grid" id="statsGrid"></div></section>
+
+    <section class="section" id="roles">
+      <div class="section__head reveal" id="rolesHead"></div>
+      <div class="roles" id="rolesGrid"></div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section__head reveal" id="experienceHead"></div>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section__head reveal" id="projectsHead"></div>
+      <div class="projects" id="projectsList"></div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section__head reveal" id="skillsHead"></div>
+      <div class="skills" id="skillsGrid"></div>
+    </section>
+
+    <section class="section" id="leadership">
+      <div class="section__head reveal" id="leadershipHead"></div>
+      <div class="cards" id="leadershipGrid"></div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section__head reveal" id="educationHead"></div>
+      <div class="edu" id="educationList"></div>
+      <div class="section__head section__head--sub reveal" id="honorsHead"></div>
+      <div class="honors" id="honorsGrid"></div>
+      <div class="extras" id="extras"></div>
+    </section>
+
+    <section class="contact" id="contact">
+      <p class="eyebrow reveal">Contact</p>
+      <h2 class="contact__title reveal" id="contactTitle"></h2>
+      <p class="contact__text reveal" id="contactText"></p>
+      <div class="contact__links reveal" id="contactLinks"></div>
+      <footer class="footer" id="footer"></footer>
+    </section>
+  </main>
+
+  <div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="pmTitle"><div class="sheet" id="projectSheet"></div></div>
+
+  <div class="modal modal--story" id="storyModal" role="dialog" aria-modal="true" aria-label="30-second overview">
+    <div class="sheet story">
+      <div class="story__bars" id="storyBars"></div>
+      <button class="sheet__close" data-close aria-label="Close"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+      <div class="story__slide" id="storySlide"></div>
+      <button class="story__tap story__tap--prev" data-story="-1" aria-label="Previous"></button>
+      <button class="story__tap story__tap--next" data-story="1" aria-label="Next"></button>
+      <span class="story__hint">Click the sides or use arrow keys. Space pauses.</span>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
